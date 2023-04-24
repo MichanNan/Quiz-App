@@ -1,0 +1,16 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  height: 80px;
+  border-bottom: 2px solid grey;
+  line-height: 80px;
+}
