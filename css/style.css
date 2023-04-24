@@ -11,6 +11,52 @@
 .title {
   text-align: center;
   height: 80px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(88, 86, 86);
   line-height: 80px;
+}
+
+.question-card {
+  position: relative;
+  width: 360px;
+  height: 200px;
+  border: solid 2px rgb(88, 86, 86);
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.bookmark {
+  position: absolute;
+  top: -22px;
+  right: 10px;
+  z-index: 1;
+  background-color: white;
+  height: 48px;
+}
+
+.bookmark img {
+  width: 48px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  position: absolute;
+  top: 10%;
+  left: 60px;
+}
+
+.question-text {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.show-answer {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10%;
+  border: solid 2px rgb(88, 86, 86);
+  padding: 10px 20px;
 }
