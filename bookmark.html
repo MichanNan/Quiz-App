@@ -17,28 +17,32 @@
     </header>
     <main>
       <section class="question-card">
-        <div class="bookmark">
+        <div class="question-card__bookmark">
           <span class="material-symbols-rounded filled"> bookmark </span>
         </div>
-        <div class="question">
-          <p class="question-text">Lorem ipsum, dolor sit elit.</p>
-          <button class="show-answer">Show Answer</button>
+        <div class="question-card__question">
+          <p class="question-card__question__text">
+            Lorem ipsum, dolor sit elit.
+          </p>
+          <button class="question-card__question__show-answer">
+            Show Answer
+          </button>
         </div>
-        <div class="question-categories">
-          <div class="categories">#html</div>
-          <div class="categories">#css</div>
-        </div>
+        <ul class="question-card__categories">
+          <li class="question-card__categories__item">#html</li>
+          <li class="question-card__categories__item">#css</li>
+        </ul>
       </section>
     </main>
     <footer>
       <div class="navbar">
-        <a class="nav-link" href="./index.html">
+        <a class="navbar__nav-link" href="./index.html">
           <span class="material-symbols-rounded"> home </span>
         </a>
-        <a class="nav-link selected" href="./bookmark.html">
+        <a class="navbar__nav-link selected" href="./bookmark.html">
           <span class="material-symbols-rounded filled"> bookmark </span>
         </a>
-        <a class="nav-link" href="./account.html">
+        <a class="navbar__nav-link" href="./account.html">
           <span class="material-symbols-rounded"> account_circle </span>
         </a>
       </div>

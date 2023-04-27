@@ -9,7 +9,7 @@
   border-radius: 5px;
 }
 
-.question {
+.question-card__question {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,12 +20,12 @@
   left: 60px;
 }
 
-.question-text {
+.question-card__question__text {
   font-size: 18px;
   font-weight: 100;
 }
 
-.show-answer {
+.question-card__question__show-answer {
   font-size: 18px;
   font-weight: normal;
   margin-top: 10%;
@@ -36,12 +36,12 @@
   border-radius: 15px;
 }
 
-.question-categories {
+.question-card__categories {
   display: flex;
   position: absolute;
   bottom: 10px;
 }
-.categories {
+.question-card__categories__item {
   font-size: 12px;
   font-weight: 100;
   border-radius: 5px;
