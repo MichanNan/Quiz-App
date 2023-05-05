@@ -1,5 +1,5 @@
 const bookmarks = document.querySelectorAll('[data-js="bookmark"]');
-const showAnsweButtons = document.querySelectorAll(
+const showAnswerButtons = document.querySelectorAll(
   ".question-card__question__show-answer"
 );
 const answers = document.querySelectorAll(".question-card__answer");
@@ -12,12 +12,12 @@ bookmarks.forEach((element) => {
 });
 
 for (let i = 0; i < showAnsweButtons.length; i++) {
-  showAnsweButtons[i].addEventListener("click", () => {
+  showAnswerButtons[i].addEventListener("click", () => {
     answers[i].classList.toggle("hidden");
     answers[i].classList.contains("hidden")
-      ? ((showAnsweButtons[i].textContent = "Show Answer"),
+      ? ((showAnswerButtons[i].textContent = "Show Answer"),
         (questionCard[i].style.height = "240px"))
-      : ((showAnsweButtons[i].textContent = "Hide Answer"),
+      : ((showAnswerButtons[i].textContent = "Hide Answer"),
         (questionCard[i].style.height = "280px"));
   });
 }
