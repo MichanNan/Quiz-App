@@ -1,12 +1,11 @@
 .question-card {
   position: relative;
-  width: 360px;
-  height: 200px;
-  margin-top: 30px;
-  margin-left: 15px;
+  padding: 1rem;
+  margin: 1.5rem 1rem 1rem 1rem;
   background-color: #ffffff;
   box-shadow: 1px 1px 3px 1px #bbbbbb;
   border-radius: 5px;
+  height: 240px;
 }
 
 .question-card__question {
@@ -14,15 +13,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 240px;
   position: absolute;
-  top: 20%;
-  left: 60px;
 }
 
-.question-card__question__text {
+.question-card__question__text,
+.question-card__answer {
   font-size: 18px;
   font-weight: 100;
+}
+
+.question-card__answer {
+  margin: 1rem;
 }
 
 .question-card__question__show-answer {
@@ -49,4 +50,8 @@
   margin-left: 10px;
   background-color: #dc2969;
   color: #ffffff;
+}
+
+.hidden {
+  display: none;
 }
