@@ -2,7 +2,7 @@
 @import url(./components//footer.css);
 @import url(./components//question-card.css);
 
-.bookmark {
+.question-card__bookmark {
   position: absolute;
   top: -22px;
   right: 10px;
@@ -11,7 +11,8 @@
   height: 48px;
 }
 
-.bookmark .material-symbols-rounded.filled {
+.question-card__bookmark .material-symbols-rounded.filled {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 20;
   font-size: 48px;
+  opacity: 0.6;
 }
