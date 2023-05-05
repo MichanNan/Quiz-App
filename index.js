@@ -11,7 +11,7 @@ bookmarks.forEach((element) => {
   });
 });
 
-for (let i = 0; i < showAnsweButtons.length; i++) {
+for (let i = 0; i < showAnswerButtons.length; i++) {
   showAnswerButtons[i].addEventListener("click", () => {
     answers[i].classList.toggle("hidden");
     answers[i].classList.contains("hidden")
