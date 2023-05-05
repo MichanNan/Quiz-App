@@ -1,6 +1,4 @@
-const bookmarks = document.querySelectorAll(
-  ".question-card .material-symbols-rounded"
-);
+const bookmarks = document.querySelectorAll('[data-js="bookmark"]');
 bookmarks.forEach((element) => {
   element.addEventListener("click", () => {
     element.classList.toggle("filled");
