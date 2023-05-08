@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./css//form.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+  </head>
+  <body>
+    <body>
+        <header>
+          <h1 class="title">Quiz App</h1>
+        </header>
+
+        <main>
+          <form class="add_quesstion" action="#">
+            <label for="add_question__question">Your question</label>
+            <textarea name="add_question__question" id="add_question__question"  maxlength="150"></textarea>
+            <p class="add_question__question_limit">150 characters left</p>
+            <label for="add_question__answer">Your answer</label>
+            <textarea name="add_question__answer" id="add_question__answer"  maxlength="150"></textarea>
+            <p class="add_question__answer_limit">150 characters left</p>
+            <label for="add_question__tag">Tag</label>
+            <input id="add_question__tag" name="add_question__tag" type="text">
+            <button class="add_question__submit">Submit</button>
+          </form>
+          <section class="added_new_question"></section>
+        </main>
+        <footer>
+          <div class="navbar">
+            <a class="navbar__nav-link" href="./index.html">
+              <span class="material-symbols-rounded"> home </span>
+            </a>
+            <a class="navbar__nav-link " href="./bookmark.html">
+              <span class="material-symbols-rounded "> bookmark </span>
+            </a>
+            <a class="navbar__nav-link selected" href="./form.html">
+                <span class="material-symbols-rounded filled">add_circle</span>
+            </a>
+            <a class="navbar__nav-link" href="./account.html">
+              <span class="material-symbols-rounded"> account_circle </span>
+            </a>
+          </div>
+        </footer>
+    </br>
+</br>
+</br>
+</br>
+</br>
+
+      </body>
+    </html>
+  </body>
+  <script src="./form.js"></script>
+  <script src="./index.js"></script>
+  
+</html>

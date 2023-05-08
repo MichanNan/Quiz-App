@@ -14,8 +14,12 @@ body {
 }
 
 .title {
+  position: fixed;
+  top: 0;
+  z-index: 2;
   text-align: center;
   height: 60px;
+  width: 100%;
   font-size: 20px;
   font-weight: lighter;
   line-height: 70px;
