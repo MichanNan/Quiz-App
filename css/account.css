@@ -80,7 +80,7 @@ main {
 
 .counter-container__counter .material-symbols-rounded.filled {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 20;
-  color: green;
+  color: #357b40;
 }
 
 .counter-container__counter__bookmaks__num {
@@ -94,7 +94,7 @@ main {
   position: absolute;
   top: 400px;
   left: 45px;
-  width: 60%;
+  width: 80%;
 }
 
 .settings h3 {
@@ -103,16 +103,51 @@ main {
 }
 
 .settings__dark-mode {
+  width: 90%;
+  margin: auto;
+}
+
+.settings__dark-mode__label {
+  cursor: pointer;
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+  height: 40px;
 }
 
-.settings__dark-mode h4 {
-  font-size: 18px;
+.settings__dark-mode__input {
+  visibility: hidden;
 }
 
-.settings__dark-mode .material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 200, "opsz" 20;
-  font-size: 40px;
+.settings__dark-mode__label:before {
+  width: 80px;
+  height: 40px;
+  background: #b9c0ba;
+  display: block;
+  border-radius: 100px;
+  position: absolute;
+  content: "";
+  right: 0;
+}
+
+.settings__dark-mode__label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 90px;
+  transition: right 0.3s;
+}
+
+.settings__dark-mode__input:checked + .settings__dark-mode__label:before {
+  background: #357b40;
+}
+
+.settings__dark-mode__input:checked + .settings__dark-mode__label:after {
+  right: 5px;
 }
